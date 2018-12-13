@@ -3,9 +3,9 @@
 
 // Lets you use the Cuda FFT library
 #include "cufft.h"
-
 #include <stdio.h>
-#include "cudaProject.h"
+
+#include "cudaProject.h" 
 
 
 cudaError_t mathWithCuda(float *output, float *input1, float *input2, unsigned int size, int oper);
